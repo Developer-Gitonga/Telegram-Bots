@@ -123,10 +123,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# Telegram Bot API settings
-TELEGRAM_BOT_TOKEN = '<your_telegram_bot_token>'
-
-# Facebook Graph API settings
-WHATSAPP_VERIFY_TOKEN = '<your_whatsapp_verify_token>'
-WHATSAPP_ACCESS_TOKEN = '<your_whatsapp_access_token>'
-SEND_MESSAGE_ENDPOINT = '<your_facebook_graph_api_send_message_endpoint>'
